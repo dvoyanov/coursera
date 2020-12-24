@@ -6,14 +6,13 @@ from abc import ABC
 class AbstractLevel(yaml.YAMLObject):
 
     @classmethod
-    def from_yaml(cls, loader, node):
-
-        def get_map(loader, node):
-            pass
-
-        def get_objects(loader, node):
-
-        loader.add_constructor(u'!')
+    def from_yaml(cls, loader, node):  # <-- добавим метод класса from_yaml
+        # получаем данные из yaml
+        value = loader.construct_mapping(node, deep=True)
+        _map = cls.Map()
+        _obj = cls.Objects()
+        _obj.config = value
+        return {'map': _map, 'obj': _obj}
 
     @classmethod
     def get_map(cls):
@@ -31,7 +30,7 @@ class AbstractLevel(yaml.YAMLObject):
 
 
 class EasyLevel(AbstractLevel):
-    yaml_tag = u'!easy_level'
+    yaml_tag = '!easy_level'
 
     class Map:
         def __init__(self):
@@ -68,7 +67,7 @@ class EasyLevel(AbstractLevel):
 
 
 class MediumLevel(AbstractLevel):
-    yaml_tag = u'!medium_level'
+    yaml_tag = '!medium_level'
 
     class Map:
         def __init__(self):
@@ -105,7 +104,7 @@ class MediumLevel(AbstractLevel):
 
 
 class HardLevel(AbstractLevel):
-    yaml_tag = u'!hard_level'
+    yaml_tag = '!hard_level'
 
     class Map:
         def __init__(self):
