@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addf4a8a-4e98-4cf7-9f99-2a970a8be9e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="addf4a8a-4e98-4cf7-9f99-2a970a8be9e4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../course3" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,5 +70,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="283" width="430" height="481" key="FileChooserDialogImpl" timestamp="1610555500060">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state x="743" y="283" width="430" height="481" key="FileChooserDialogImpl/0.0.1920.1047/1920.360.1280.720@0.0.1920.1047" timestamp="1610555500060" />
   </component>
 </project>
